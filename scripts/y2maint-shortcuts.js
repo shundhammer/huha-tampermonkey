@@ -21,10 +21,16 @@
     const bug_howto = 'https://en.opensuse.org/openSUSE:How_to_Write_a_Good_Bugreport';
 
     // More specific FAQ-like wiki page containing details about getting YaST/other logs, enabling verbose mode and more
-    const logs_howto = 'https://en.opensuse.org/openSUSE:Report_a_YaST_bug';
+    const y2logs_howto = 'https://en.opensuse.org/openSUSE:Report_a_YaST_bug';
+
+    // Doc how to collect Agama logs
+    const agama_logs_howto = 'https://agama-project.github.io/docs/devel/collecting-agama-logs';
 
     const need_y2logs = "Please attach y2logs generated with the supplied 'save_y2logs' script. " +
-          "\nSee \n\n  " + logs_howto + "\n\n";
+          "\nSee \n\n  " + y2logs_howto + "\n\n";
+
+    const need_agama_logs = "Please attach Agama logs. " +
+          "\nSee \n\n  " + agama_logs_howto + "\n\n";
 
     const need_hwinfo = "Please attach the output of the 'hwinfo' command.\n\n";
 
@@ -35,6 +41,7 @@
     // See, e.g., https://www.freecodecamp.org/news/regular-expressions-for-beginners/ for reference
     const translations = [
         [/!y2logs/gi, need_y2logs],
+        [/!agama-logs/gi, need_agama_logs],
         [/!hwinfo/gi, need_hwinfo],
         [/!good-bug/gi, need_good_bug],
         [/!good_bug/gi, need_good_bug],
