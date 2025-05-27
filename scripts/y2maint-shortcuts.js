@@ -29,8 +29,8 @@
     const need_y2logs = "Please attach y2logs generated with the supplied 'save_y2logs' script. " +
           "\nSee \n\n  " + y2logs_howto + "\n\n";
 
-    const need_agama_logs = "Please attach Agama logs. " +
-          "\nSee \n\n  " + agama_logs_howto + "\n\n";
+    const need_agama_logs = "Please attach Agama logs. See" +
+          "\n\n  " + agama_logs_howto + "\n\n";
 
     const need_hwinfo = "Please attach the output of the 'hwinfo' command.\n\n";
 
