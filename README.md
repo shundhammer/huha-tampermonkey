@@ -15,6 +15,7 @@ Text blocks for requesting y2logs and hwinfo and to remind users of our "How to
 write a good bug report" documentation:
 
 - `!y2logs`
+- `!agama-logs`
 - `!hwinfo`
 - `!good-bug`
 

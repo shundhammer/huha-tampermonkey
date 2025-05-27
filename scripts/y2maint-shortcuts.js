@@ -42,6 +42,7 @@
     const translations = [
         [/!y2logs/gi, need_y2logs],
         [/!agama-logs/gi, need_agama_logs],
+        [/!agama_logs/gi, need_agama_logs],
         [/!hwinfo/gi, need_hwinfo],
         [/!good-bug/gi, need_good_bug],
         [/!good_bug/gi, need_good_bug],
