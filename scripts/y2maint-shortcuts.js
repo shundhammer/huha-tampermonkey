@@ -24,7 +24,7 @@
     const y2logs_howto = 'https://en.opensuse.org/openSUSE:Report_a_YaST_bug';
 
     // Doc how to collect Agama logs
-    const agama_logs_howto = 'https://agama-project.github.io/docs/devel/collecting-agama-logs';
+    const agama_logs_howto = 'https://agama-project.github.io/docs/user/guides/collecting_logs';
 
     const need_y2logs = "Please attach y2logs generated with the supplied 'save_y2logs' script. " +
           "\nSee \n\n  " + y2logs_howto + "\n\n";
